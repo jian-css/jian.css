@@ -1,15 +1,9 @@
-mark{
-    background-color:blue;
-}
 strong{
     color:red;
-
-
 }
-button{
+.btn{
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: blue;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -18,11 +12,6 @@ button{
     cursor: pointer;
     border-radius:15px
 }
-h1{
-    font-size:40px;
-}
-h2{
-    font-size:35px
-}
-body{
+:root{
+    
 }
