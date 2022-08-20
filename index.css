@@ -4,20 +4,27 @@ strong{
 .btn{
     border: none;
     color: white;
-    background-color:blue
+    background-color:var(--blue);
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
-    border-radius:5px;
+    border-radius: 5px;
 }
 hr{
-    border: solid blue;
+    border: solid var(--blue);
 }
 h1{
-    font-size:2.55em;
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2.2em;
+}
 :root{
-    font-family:
+    font-family: Arial, Helvetica, sans-serif;
+    --blue:rgb(40, 40, 255);
+}
+a:not(.btn){
+    color: var(--blue);
 }
