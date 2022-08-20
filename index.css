@@ -3,15 +3,21 @@ strong{
 }
 .btn{
     border: none;
-    color: blue;
+    color: white;
+    background-color:blue
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius:15px
+    border-radius:5px;
 }
+hr{
+    border: solid blue;
+}
+h1{
+    font-size:2.55em;
 :root{
-    
+    font-family:
 }
