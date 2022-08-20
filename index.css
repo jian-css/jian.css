@@ -1,6 +1,10 @@
 strong{
     color:red;
 }
+.c{
+    max-width: 60em;
+    padding: 1.2em;
+}
 .btn{
     border: none;
     color: white;
