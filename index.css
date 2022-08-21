@@ -49,3 +49,8 @@ a:not(.btn){
     text-decoration: none;
     color: var(--blue);
 }
+td, th {
+    padding: 1em;
+    text-align: left;
+    border-bottom: solid #eee;
+}
