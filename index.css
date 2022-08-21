@@ -4,6 +4,7 @@ strong{
 .c{
     max-width: 60em;
     padding: 1.2em;
+    margin: auto;
 }
 .btn{
     border: none;
