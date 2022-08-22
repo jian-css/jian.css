@@ -11,7 +11,7 @@ strong{
     color: white;
     background-color:var(--blue);
     text-align: center;
-    /*text-decoration: none;*/
+    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -22,22 +22,22 @@ hr{
     border: solid var(--blue);
 }
 h1{
-    font-size: 2.5em;
+    font-size: 5vh;
 }
 h2{
-    font-size: 2.1em;
+    font-size: 4vh;
 }
 h3{
-    font-size: 1.8em;
+    font-size: 3.4vh;
 }
 h4{
-    font-size: 1.5em;
+    font-size: 3vh;
 }
 h5{
-    font-size: 1.2em;
+    font-size: 2.6vh;
 }
 h6{
-    font-size: 1em;
+    font-size: 2vh;
 }
 :root{
     font-size: 20px;
