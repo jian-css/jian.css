@@ -11,11 +11,12 @@ strong{
     color: white;
     background-color:var(--blue);
     text-align: center;
-    text-decoration: none;
+    /*text-decoration: none;*/
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 5px;
+    padding: 10px;
 }
 hr{
     border: solid var(--blue);
