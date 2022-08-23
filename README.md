@@ -4,11 +4,11 @@
 ## 使用CDN
 将以下代码添加到你的网页里：
 ```html
-<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/xyzscratcher/jian.css@master/index.css">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/xyzscratcher/jian.css@master/index.min.css">
 ```
 或者指定版本：
 ```html
-<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/xyzscratcher/jian.css@0.2.0/index.css">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/xyzscratcher/jian.css@0.2.0/index.min.css">
 ```
 只需要将“@”后面的内容替换为版本号就可以了。
 # 使用须知
