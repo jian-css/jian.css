@@ -1,9 +1,9 @@
-.dark{
-    filter: invert(100%);
-    background-color:black;
+:root{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --blue:#0d6efd;
 }
-.dark img{
-    filter: invert(100%);
+body{
+    line-height: 1.618;
 }
 .c{
     max-width: 60em;
@@ -29,13 +29,14 @@ p{
     background-color:var(--blue);
 }
 hr{
-    border: solid var(--blue);
+    border: 1px solid var(--blue);
 }
 h1,
 h2,
 h3,
 h4 {
     font-weight: 300;
+    line-height: 1.2;
 }
 @media screen and (min-height:900px){
 h1{
@@ -50,43 +51,39 @@ h3{
 h4{
     font-size: calc(3.2vh - 10px);
 }}
-:root{
-    font-family: system-ui, Helvetica, sans-serif;
-    --blue:#0d6efd;
-}
-body{
-    line-height: 1.5;
-}
 a:not(.btn){
     color: var(--blue);
+}
+table{
+    width: 100%;
 }
 td, th {
     padding: 0.7em;
     text-align: left;
-    border-bottom: solid #aaa;
+    border-bottom: solid #ddd;
     font-size: 16px;
 }
 a{
     text-decoration: none;
 }
-input,.btn{
+input,.btn,.card{
     border-radius: 5px;
 }
 input:focus{
-    border: 3px solid var(--blue);
+    outline: 1.618px solid var(--blue);
+    /*box-shadow: 0 0 1.618px 4px skyblue;*/
 }
 input{
     display: block;
-    padding: .375rem .75rem;
+    padding: 6px 10px;
     font-size: 1em;
-    line-height: 1.5;
+    line-height: 1.618;
     border: 1px solid #ced4da;
     margin: 12px 0;
-    outline: 0;
+    width: 95%;
 }
 .card{
     border: solid #d8d8d8;
     margin-bottom: 1.25em;
     padding: 1.25em;
-    background: #dff;
 }
