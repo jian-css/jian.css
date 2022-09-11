@@ -38,7 +38,7 @@ h4 {
     font-weight: 300;
     line-height: 1.2;
 }
-@media screen and (min-height:900px){
+@media screen and (min-width:576px){
 h1{
     font-size: calc(5vh - 8px);
 }
@@ -50,6 +50,56 @@ h3{
 }
 h4{
     font-size: calc(3.2vh - 10px);
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.666%;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.333%;
+}
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.666%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.333%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.666%;
+}
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.333%;
+}
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.666%;
 }}
 a:not(.btn){
     color: var(--blue);
@@ -87,3 +137,53 @@ input{
     margin-bottom: 1.25em;
     padding: 1.25em;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*@media (min-width: 576px){ 
+    .col-2 {
+        flex: 0 0 auto;
+        width: 16.666%;
+    }
+    .col-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .col-4 {
+        flex: 0 0 auto;
+        width: 33.333%;
+    }
+    .col-5 {
+        flex: 0 0 auto;
+        width: 41.666%;
+    }
+    .col-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-7 {
+        flex: 0 0 auto;
+        width: 58.333%;
+    }
+
+    .col-8 {
+        flex: 0 0 auto;
+        width: 66.666%;
+    }
+
+    .col-9 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+
+    .col-10 {
+        flex: 0 0 auto;
+        width: 83.333%;
+    }
+
+    .col-11 {
+        flex: 0 0 auto;
+        width: 91.666%;
+    }
+}*/
