@@ -25,5 +25,7 @@ jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框�
 ```html
 <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/xyzscratcher/xyzscratcher.github.io@master/jian-css/jianrong.min.css">
 ```
+# star history
+![](https://api.star-history.com/svg?repos=xyzscratcher/jian.css&type=Date)
 # 使用须知
 - 网页源代码中一定要添加`<meta name="viewport" content="width=device-width, initial-scale=1">`，否则手机显示会出问题！
