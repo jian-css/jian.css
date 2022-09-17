@@ -27,7 +27,7 @@ jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框�
 ```
 # star history
 ![](https://api.star-history.com/svg?repos=xyzscratcher/jian.css&type=Date)
-# 贡献者
+<!--# 贡献者-->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
