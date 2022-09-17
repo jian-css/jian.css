@@ -1,6 +1,16 @@
+/*root*/
 :root{
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    --blue:#0d6efd;
+    /*color*/
+    --main:#0d6efd;
+    
+    --pri:#0d6efd;
+    --warn:rgb(255,193,7);
+    --success:rgb(25,135,84);
+    --info:rgb(13,202,240);
+}
+*{
+    box-sizing: border-box;
 }
 body{
     line-height: 1.618;
@@ -14,9 +24,9 @@ p{
     font-size:16px;
 }
 .btn{
-    color: var(--blue);
+    color: var(--main);
     background-color: white;
-    border: solid var(--blue);
+    border: solid var(--main);
     padding: 6px 10px;
     margin: 4px;
     font-size: calc(0.5vh + 10px);
@@ -24,12 +34,34 @@ p{
     display: inline-block;
     cursor: pointer;
 }
-.pri{
+/*color*/
+.pri,.warn,.info,.success{
     color: white;
-    background-color:var(--blue);
 }
+.pri{
+    background-color:var(--pri);
+}
+.warn{
+    background-color:var(--warn);
+} 
+.info{
+    background-color:var(--info);
+} 
+.success{
+    background-color:var(--success);
+} 
 hr{
-    border: 1px solid var(--blue);
+    border: 1px solid var(--main);
+}
+/*tool*/
+.padding-5{
+    padding:5px
+}
+.padding-10{
+    padding:10px
+}
+.padding-15{
+    padding:15px
 }
 h1,
 h2,
@@ -37,6 +69,15 @@ h3,
 h4 {
     font-weight: 300;
     line-height: 1.2;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
 }
 @media screen and (min-width:576px){
 h1{
@@ -51,7 +92,13 @@ h3{
 h4{
     font-size: calc(3.2vh - 10px);
 }
-
+.col {
+    flex: 1 0 0%;
+}
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.333%;
+}
 .col-2 {
     flex: 0 0 auto;
     width: 16.666%;
@@ -102,9 +149,9 @@ h4{
     width: 91.666%;
 }}
 a:not(.btn){
-    color: var(--blue);
+    color: var(--main);
 }
-table{
+table,input,.w-100{
     width: 100%;
 }
 td, th {
@@ -120,7 +167,7 @@ input,.btn,.card{
     border-radius: 5px;
 }
 input:focus{
-    outline: 1.618px solid var(--blue);
+    border: 1.618px solid var(--main);
     /*box-shadow: 0 0 1.618px 4px skyblue;*/
 }
 input{
@@ -130,60 +177,9 @@ input{
     line-height: 1.618;
     border: 1px solid #ced4da;
     margin: 12px 0;
-    width: 95%;
 }
 .card{
     border: solid #d8d8d8;
     margin-bottom: 1.25em;
     padding: 1.25em;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-/*@media (min-width: 576px){ 
-    .col-2 {
-        flex: 0 0 auto;
-        width: 16.666%;
-    }
-    .col-3 {
-        flex: 0 0 auto;
-        width: 25%;
-    }
-    .col-4 {
-        flex: 0 0 auto;
-        width: 33.333%;
-    }
-    .col-5 {
-        flex: 0 0 auto;
-        width: 41.666%;
-    }
-    .col-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    .col-7 {
-        flex: 0 0 auto;
-        width: 58.333%;
-    }
-
-    .col-8 {
-        flex: 0 0 auto;
-        width: 66.666%;
-    }
-
-    .col-9 {
-        flex: 0 0 auto;
-        width: 75%;
-    }
-
-    .col-10 {
-        flex: 0 0 auto;
-        width: 83.333%;
-    }
-
-    .col-11 {
-        flex: 0 0 auto;
-        width: 91.666%;
-    }
-}*/
