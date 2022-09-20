@@ -21,7 +21,7 @@ body{
     padding: 1.2em;
     margin: auto;
 }
-.c[data-theme=dark]{
+[data-theme=dark]{
     background-color:#111;
     color:#eee;
 }
