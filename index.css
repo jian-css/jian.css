@@ -151,6 +151,9 @@ h4{
 .col-11 {
     flex: 0 0 auto;
     width: 91.666%;
+}
+[class^=col]{
+    padding:0 50px;
 }}
 a:not(.btn){
     color: var(--main);
@@ -167,10 +170,10 @@ td, th {
 a{
     text-decoration: none;
 }
-input,.btn,.card{
+input,.btn,.card,textarea{
     border-radius: 5px;
 }
-input:focus{
+:is(input,textarea):focus{
     border: 1.618px solid var(--main);
     outline:0;
 }
@@ -185,5 +188,5 @@ input{
 .card{
     border: solid #d8d8d8;
     margin-bottom: 1.25em;
-    padding: 1.25em;
+    padding: 12px;
 }
