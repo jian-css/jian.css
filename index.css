@@ -156,9 +156,9 @@ h4{
     flex: 0 0 auto;
     width: 91.666%;
 }
-[class^=col]{
+/*[class^=col]{
     padding:0 50px;
-}}
+}*/}
 a:not(.btn){
     color: var(--main);
 }
