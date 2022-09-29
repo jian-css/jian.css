@@ -1,6 +1,7 @@
 # jian.css
 
-![](https://img.shields.io/github/stars/xyzscratcher/jian.css)
+![](https://img.shields.io/github/stars/xyzscratcher/jian.css.svg)
+![](https://img.shields.io/github/issues/xyzscratcher/jian.css.svg)
 # 简介
 jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框架都轻。  
 它拥有以下特点：
