@@ -194,3 +194,8 @@ input{
     margin-bottom: 1.25em;
     padding: 12px;
 }
+footer{
+    border-top: 1px solid var(--gray);
+    width: 80%;
+    margin: auto;
+}
