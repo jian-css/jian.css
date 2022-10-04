@@ -202,6 +202,6 @@ footer{
     width: 80%;
     margin: auto;
 }
-pre,code{
+pre,code,.code{
     font-family: consolas,"Lucida Console",'Courier New', Courier, monospace;
 }
