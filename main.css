@@ -6,12 +6,20 @@ Copyright © 2022 XYZscratcher All Rights Reserved.
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     /*color*/
     --main:#0d6efd;
-    
     --pri:#0d6efd;
     --warn:rgb(255,193,7);
     --success:rgb(25,135,84);
     --info:rgb(13,202,240);
     --gray:rgb(108,117,125);
+
+    /*fonts*/
+    --mono:consolas,
+        "Lucida Console",
+        'Courier New',
+        Courier,
+        monospace;
+    
+    font-size: 16px;
 }
 *{
     box-sizing: border-box;
@@ -27,9 +35,6 @@ body{
 [data-theme=dark]{
     background-color:#111;
     color:#eee;
-}
-p{
-    font-size:16px;
 }
 .btn{
     color: var(--main);
@@ -64,16 +69,7 @@ p{
 hr{
     border: 1px solid var(--main);
 }
-/*tool*/
-.p-1{
-    padding:5px
-}
-.p-2{
-    padding:10px
-}
-.p-3{
-    padding:15px
-}
+
 h1,
 h2,
 h3,
@@ -203,5 +199,5 @@ footer{
     margin: auto;
 }
 pre,code,.code{
-    font-family: consolas,"Lucida Console",'Courier New', Courier, monospace;
+    font-family: var(--mono)
 }
