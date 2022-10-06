@@ -21,6 +21,11 @@ Copyright © 2022 XYZscratcher All Rights Reserved.
     
     font-size: 16px;
 }
+@media (prefers-reduced-motion: no-preference){
+    :root {
+        scroll-behavior: smooth;
+    }
+}
 *{
     box-sizing: border-box;
 }
