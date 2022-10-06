@@ -1,7 +1,7 @@
 # jian.css
 
-![](https://img.shields.io/github/stars/xyzscratcher/jian.css.svg)
-![](https://img.shields.io/github/issues/xyzscratcher/jian.css.svg)
+![](https://img.shields.io/github/stars/jian-css/jian.css.svg)
+![](https://img.shields.io/github/issues/jian-css/jian.css.svg)
 # 简介
 jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框架都轻。  
 它拥有以下特点：
@@ -31,7 +31,7 @@ jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框�
 <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/xyzscratcher/xyzscratcher.github.io@master/jian-css/jianrong.min.css">
 ```
 # star history
-![](https://api.star-history.com/svg?repos=xyzscratcher/jian.css&type=Date)
+![](https://api.star-history.com/svg?repos=jian-css/jian.css&type=Date)
 <!--# 贡献者-->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
