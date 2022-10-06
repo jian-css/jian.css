@@ -388,6 +388,45 @@
     padding-left: 3rem !important
 }
 
-.font-monospace {
-    font-family: consolas,"Lucida Console",'Courier New',Courier,monospace !important
+.rounded {
+    border-radius: .25rem !important
+}
+
+.rounded-0 {
+    border-radius: 0 !important
+}
+
+.rounded-1 {
+    border-radius: .2rem !important
+}
+
+.rounded-2 {
+    border-radius: .25rem !important
+}
+
+.rounded-3 {
+    border-radius: .3rem !important
+}
+
+.rounded-circle {
+    border-radius: 50% !important
+}
+
+.rounded-pill {
+    border-radius: 50rem !important
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important
+}
+
+.shadow-none {
+    box-shadow: none !important
 }
