@@ -19,7 +19,7 @@ Copyright © 2022 XYZscratcher All Rights Reserved.
         Courier,
         monospace;
     
-    font-size: 16px;
+    font-size: 1em;
 }
 @media (prefers-reduced-motion: no-preference){
     :root {
@@ -33,8 +33,8 @@ body{
     line-height: 1.618;
 }
 .c{
-    max-width: 60em;
-    padding: 1.2em;
+    max-width: 60rem;
+    padding: 1.2rem;
     margin: auto;
 }
 [data-theme=dark]{
@@ -200,6 +200,7 @@ input{
 }
 footer{
     border-top: 1px solid var(--gray);
+    font-size: 12px;
     width: 80%;
     margin: auto;
 }
