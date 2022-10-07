@@ -178,7 +178,7 @@ td, th {
 a{
     text-decoration: none;
 }
-input,.btn,.card,textarea{
+input,.btn,.card,textarea,img,video,pre,code{
     border-radius: 5px;
 }
 :is(input,textarea):focus{
@@ -204,12 +204,19 @@ footer{
     width: 80%;
     margin: auto;
 }
-pre,code,.code{
-    font-family: var(--mono)
+pre,code{
+    font-family: var(--mono);
+    background-color: #d8d8d8;
+    padding: 1rem;
 }
 blockquote {
     margin: 2rem 0 2rem 2rem;
     padding: 0.4rem 0.8rem;
     border-left: 0.35rem solid var(--accent);
     font-style: italic;
+}
+img,
+video {
+    max-width: 100%;
+    height: auto;
 }
