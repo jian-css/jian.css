@@ -39,11 +39,11 @@ body{
 }
 [data-theme=dark]{
     background-color:#111;
-    color:#eee;
+    color:#fff;
 }
 .btn{
     color: var(--main);
-    background-color: white;
+    background-color: #fff;
     padding: 6px 10px;
     margin: 4px;
     font-size: calc(0.5vh + 10px);
