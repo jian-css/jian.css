@@ -5,7 +5,7 @@
 # 简介
 jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框架都轻。  
 它拥有以下特点：
-- 🎈️超级轻量，比 water.css、simple.css 等“轻量级” CSS 框架小得多，大小是 simple.css 的 1/3。
+- 🎈️超级轻量，比 water.css、simple.css 等“轻量级” CSS 框架小得多，大小是 simple.css 的 **37%**。
 - ✔高兼容性，支持大多数主流浏览器，包括 IE9（使用兼容版本）。
 - ✨️效果出众，丝毫不亚于 Bootstrap 等“重量级”框架（个人看法）。
 - 🎨️高自定义性，只用一行 JavaScript 代码，将主题颜色自由切换（使用普通版本）。
