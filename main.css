@@ -188,20 +188,20 @@ input,.btn,.card,textarea,img,video,pre,code{
 input{
     display: block;
     padding: 6px 10px;
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 1.618;
     border: 1px solid #ced4da;
     margin: 12px 0;
 }
 .card{
     border: solid #d8d8d8;
-    margin-bottom: 1.25em;
+    margin-bottom: 1.25rem;
     padding: 12px;
 }
 footer{
     border-top: 1px solid var(--gray);
     font-size: 0.8rem;
-    width: 80%;
+    /*width: 80%;*/
     margin: auto;
 }
 pre,code{
@@ -212,7 +212,7 @@ pre,code{
 blockquote {
     margin: 2rem 0 2rem 2rem;
     padding: 0.4rem 0.8rem;
-    border-left: 0.35rem solid var(--accent);
+    border-left: 0.35rem solid var(--pri);
     font-style: italic;
 }
 img,
