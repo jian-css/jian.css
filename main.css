@@ -1,7 +1,6 @@
 /*! URL:https://github.com/xyzscratcher/jian.css
 Copyright © 2022 XYZscratcher All Rights Reserved.
 */
-/*root*/
 :root{
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     /*color*/
@@ -40,6 +39,7 @@ body{
 [data-theme=dark]{
     background-color:#111;
     color:#fff;
+    color-scheme: dark;
 }
 .btn{
     color: var(--main);
