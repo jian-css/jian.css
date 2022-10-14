@@ -91,19 +91,48 @@ h4 {
     width: 100%;
     max-width: 100%;
 }
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+    margin-top: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+h4 {
+    font-size: 1.44rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 0.96rem;
+}
 @media screen and (min-width:576px){
-h1{
-    font-size: calc(5vh - 8px);
+h1 {
+    font-size: 2.5rem;
 }
-h2{
-    font-size: calc(4vh - 8px);
+
+h2 {
+    font-size: 2.1rem;
 }
-h3{
-    font-size: calc(3.5vh - 8px);
+
+h3 {
+    font-size: 1.75rem;
 }
-h4{
-    font-size: calc(3.2vh - 10px);
+
+h4 {
+    font-size: 1.25rem;
 }
+
 .col {
     flex: 1 0 0%;
 }
