@@ -178,6 +178,9 @@ td, th {
 a{
     text-decoration: none;
 }
+a:empty::before{
+    content: attr(href);
+}
 input,.btn,.card,textarea,img,video,pre,code{
     border-radius: 5px;
 }
