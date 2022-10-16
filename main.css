@@ -198,10 +198,13 @@ a:not(.btn){
 table,input,.w-100{
     width: 100%;
 }
+table{
+    border-spacing: 0;
+}
 td, th {
     padding: 0.7em;
     text-align: left;
-    border-bottom: solid #ddd;
+    border-bottom: solid var(--info);
     font-size: 16px;
 }
 a{
