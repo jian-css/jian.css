@@ -213,7 +213,7 @@ a{
 a:empty::before{
     content: attr(href);
 }
-input,.btn,.card,textarea,img,video,pre,code{
+input,.btn,.card,textarea,img,video,pre,code,dialog{
     border-radius: 5px;
 }
 :is(input,textarea):focus{
@@ -254,4 +254,7 @@ img,
 video {
     max-width: 100%;
     height: auto;
+}
+dialog{
+    border:none;
 }
