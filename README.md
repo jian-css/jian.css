@@ -29,7 +29,7 @@ jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框�
 ```
 只需要将“@”后面的内容替换为版本号就可以了。
 ### 兼容版本
-兼容版本是专门适配 IE 等老式浏览器所准备的版本，除不能切换主题颜色外，与普通版本**无任何区别**。  
+兼容版本是专门适配 IE 等老式浏览器所准备的版本，除不能切换主题颜色外，与普通版本**无任何区别**（目前已不再维护）。  
 将以下代码添加到你的网页里：
 ```html
 <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/xyzscratcher/xyzscratcher.github.io@master/jian-css/jianrong.min.css">
