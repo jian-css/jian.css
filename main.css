@@ -31,6 +31,14 @@ Copyright © 2022 XYZscratcher All Rights Reserved.
 body{
     line-height: 1.618;
 }
+textarea,
+select,
+input,
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 .c{
     max-width: 60rem;
     padding: 1.2rem;
