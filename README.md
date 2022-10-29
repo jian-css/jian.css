@@ -1,5 +1,5 @@
 # jian.css
-![](https://img.shields.io/badge/main.css-2.5KB-red.svg)
+![](https://img.shields.io/badge/main.css-2.8KB-red.svg)
 ![](https://img.shields.io/github/stars/jian-css/jian.css.svg)
 ![](https://img.shields.io/github/issues/jian-css/jian.css.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/jian-css/jian.css/badge)](https://www.codefactor.io/repository/github/jian-css/jian.css)
