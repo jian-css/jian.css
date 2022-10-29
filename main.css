@@ -25,7 +25,7 @@ Copyright © 2022 XYZscratcher All Rights Reserved.
         scroll-behavior: smooth;
     }
 }
-*{
+*, *::before, *::after{
     box-sizing: border-box;
 }
 body{
