@@ -20,11 +20,11 @@ jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框�
 ### 普通版本
 将以下代码添加到你的网页里：
 ```html
-<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/xyzscratcher/jian.css@master/main.min.css">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/jian-css/jian.css@master/main.min.css">
 ```
 或者指定版本：
 ```html
-<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/xyzscratcher/jian.css@1.0.0/main.min.css">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/jian-css/jian.css@1.1.7/main.min.css">
 ```
 只需要将“@”后面的内容替换为版本号就可以了。
 ### 兼容版本
