@@ -210,7 +210,7 @@ h6 {
     padding:0 50px;
 }*/}
 a:not(.btn){
-    color: var(--main);
+    color: var(--pri);
 }
 table,input,.w-100{
     width: 100%;
