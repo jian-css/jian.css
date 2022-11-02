@@ -4,7 +4,7 @@ Copyright © 2022 XYZscratcher All Rights Reserved.
 :root{
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     /*color*/
-    --main:#0d6efd;
+    /*--main:#0d6efd;*/
     --pri:#0d6efd;
     --warn:rgb(255,193,7);
     --success:rgb(25,135,84);
@@ -59,10 +59,10 @@ progress {
     }
 }
 .btn{
-    color: var(--main);
+    color: black;
     background-color: #fff;
-    padding: 6px 10px;
-    margin: 4px;
+    padding: 0.65rem;
+    margin: 0.3rem;
     font-size: calc(0.5vh + 10px);
     text-align: center;
     display: inline-block;
@@ -89,7 +89,7 @@ progress {
     background-color:var(--success);
 } 
 hr{
-    border: 1px solid var(--main);
+    border: 1px solid var(--pri);
 }
 
 h1,
@@ -239,30 +239,32 @@ input,.btn,.card,textarea,img,video,pre,code,dialog{
 }
 input{
     display: block;
-    padding: 6px 10px;
+    padding: 0.5rem;
     font-size: 1rem;
     line-height: 1.618;
     border: 1px solid #ced4da;
-    margin: 12px 0;
+    margin: 1rem 0;
 }
 .card{
     border: solid var(--gray);
     margin-bottom: 1.25rem;
-    padding: 12px;
+    padding: 1rem;
 }
 footer{
     border-top: 1px solid var(--gray);
     font-size: 0.8rem;
     /*width: 80%;*/
     margin: auto;
+    color:#aaa;
 }
 pre,code{
     font-family: var(--mono);
     background-color: var(--gray);
     padding: 1rem;
+    overflow: auto;
 }
 blockquote {
-    margin: 2rem 0 2rem 2rem;
+    margin: 2rem 0 2rem 1.5rem;
     padding: 0.4rem 0.8rem;
     border-left: 0.35rem solid var(--pri);
     font-style: italic;
