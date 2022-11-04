@@ -58,7 +58,7 @@ progress {
 @media (prefers-color-scheme: dark) {
     :root {
         background-color: #111;
-        color: #fff;
+        color: #ddd;
         color-scheme: dark;
         --gray: #2b2b2b;
         --pri: #ffb300;
