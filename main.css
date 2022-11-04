@@ -307,7 +307,7 @@ input {
 }
 
 .card :is(h2,h3):first-child{
-    margin-top: 0;
+    margin-top: 1rem;
 }
 
 footer {
