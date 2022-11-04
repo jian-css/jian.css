@@ -245,8 +245,7 @@ a:not(.btn) {
 }
 
 table,
-input,
-.w-100 {
+input {
     width: 100%;
 }
 
