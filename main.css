@@ -306,7 +306,7 @@ input {
     padding: 1rem;
 }
 
-.card:first-child{
+.card :is(h2,h3):first-child{
     margin-top: 0;
 }
 
