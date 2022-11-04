@@ -306,6 +306,10 @@ input {
     padding: 1rem;
 }
 
+.card:first-child{
+    margin-top: 0;
+}
+
 footer {
     border-top: 1px solid var(--gray);
     font-size: 0.8rem;
