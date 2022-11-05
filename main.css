@@ -284,6 +284,7 @@ mark {
 
 mark {
     background-color: var(--warn);
+    padding: 2px 5px;
 }
 
 :is(input, textarea):focus {
@@ -312,10 +313,11 @@ input {
 
 footer {
     border-top: 1px solid var(--gray);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    text-align: center;
     /*width: 80%;*/
     margin: auto;
-    color: #444;
+    color: #585858;
 }
 
 pre,
@@ -341,4 +343,9 @@ video {
 
 dialog {
     border: none;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
