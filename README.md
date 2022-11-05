@@ -15,8 +15,8 @@ jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框�
 - 📏️使用黄金比例，让您的网站更易阅读。
 # 为谁而设？
 好吧，这个问题的简短答案是*任何人*。但是，jian.css在构建简单的网站（如个人博客，关于页面或新网站的基础）时确实大放异彩。
-# 谁在使用
-- [XYZscratcher的博客](http://xyz.freeee.ml/blog/)
+<!--# 谁在使用
+- [XYZscratcher的博客](http://xyz.freeee.ml/blog/)-->
 # 快速上手
 ## 使用CDN
 ### 普通版本
@@ -28,7 +28,7 @@ jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框�
 ```
 或者指定版本：
 ```html
-<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/jian-css/jian.css@1.2.3/main.min.css">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/jian-css/jian.css@1.2.5/main.min.css">
 ```
 只需要将“@”后面的内容替换为版本号就可以了。
 ### 兼容版本
