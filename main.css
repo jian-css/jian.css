@@ -349,3 +349,8 @@ dialog {
     opacity: 0.5;
     cursor: not-allowed;
 }
+
+:not(input,textarea):focus {
+    outline: 3px solid blue;
+    border: 0;
+}
