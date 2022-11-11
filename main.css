@@ -350,7 +350,7 @@ dialog {
     cursor: not-allowed;
 }
 
-:not(input,textarea):focus {
+/*:not(input,textarea):focus {
     outline: 3px solid blue;
     border: 0;
-}
+}*/
