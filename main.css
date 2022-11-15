@@ -80,11 +80,15 @@ progress {
     cursor: pointer;
     border: none;
     line-height: inherit;
-    border: 2px solid transparent;
+    border: 2px solid var(--gray);
 }
 
-.btn:not(.pri, .warn, .info, .success) {
-    border: 2px solid var(--gray);
+.btn:hover{
+    opacity: .8;
+}
+
+:is(.pri, .warn, .info, .success).btn {
+    border: 2px solid transparent;
 }
 
 /*color*/
@@ -348,6 +352,14 @@ dialog {
 .btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
+}
+
+input,.btn,textarea{
+    transition: all .3s;
+}
+
+tr:hover {
+    background-color: #eee;
 }
 
 /*:not(input,textarea):focus {
