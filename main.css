@@ -84,8 +84,12 @@ progress {
 }
 
 .btn.large{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
 
+.btn.small{
+    font-size: .8rem;
+    padding: .5rem
 }
 
 .btn:hover{
@@ -292,7 +296,7 @@ pre,
 code,
 dialog,
 mark {
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 mark {
@@ -364,7 +368,7 @@ dialog {
 }
 
 input,.btn,textarea{
-    transition: all .3s;
+    transition: all .15s;
 }
 
 tr:hover {
