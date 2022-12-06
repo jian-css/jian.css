@@ -83,6 +83,11 @@ progress {
     border: 2px solid var(--gray);
 }
 
+.btn.large{
+    font-size: 1.5rem;
+
+}
+
 .btn:hover{
     opacity: .8;
 }
