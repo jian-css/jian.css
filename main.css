@@ -1,5 +1,5 @@
 @charset "UTF-8";/*! 
-* jian.css v1.2.8
+* jian.css v1.2.9
 * https://github.com/jian-css/jian.css
 * Copyright 2022 The jian.css Authors
 */
@@ -83,16 +83,17 @@ progress {
     border: 2px solid var(--gray);
 }
 
-.btn.large{
-    font-size: 1.3rem;
+.btn.large {
+    font-size: 1.2rem;
+    padding: 0.75rem;
 }
 
-.btn.small{
+.btn.small {
     font-size: .8rem;
     padding: .5rem
 }
 
-.btn:hover{
+.btn:hover {
     opacity: .8;
 }
 
@@ -324,7 +325,7 @@ input {
     padding: 1rem;
 }
 
-.card :is(h2,h3):first-child{
+.card :is(h2, h3):first-child {
     margin-top: 1rem;
 }
 
@@ -367,7 +368,9 @@ dialog {
     cursor: not-allowed;
 }
 
-input,.btn,textarea{
+input,
+.btn,
+textarea {
     transition: all .15s;
 }
 
