@@ -12,6 +12,8 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/jian-css/jian.css/badge)](https://www.codefactor.io/repository/github/jian-css/jian.css)
 [![](https://data.jsdelivr.com/v1/package/gh/jian-css/jian.css/badge)](https://www.jsdelivr.com/package/gh/jian-css/jian.css)
 # 简介
+![Alt](https://repobeats.axiom.co/api/embed/9334dacc8ac1c34bfa0a75b87670324c282b6f31.svg "Repobeats analytics image")
+
 jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框架都轻，同时让您的网站具有舒适的视觉享受。
 它拥有以下特点：
 - 🎈️超级轻量，比 water.css、simple.css 等“轻量级” CSS 框架小得多，大小是 simple.css 的 **37%**（main.css）。
@@ -58,6 +60,7 @@ jian.css，一个超级轻的 CSS 框架，比你见过的几乎所有 CSS 框�
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
 # 使用须知
 - 网页源代码中一定要添加`<meta name="viewport" content="width=device-width, initial-scale=1">`，否则手机显示会出问题！
 # 感谢
